@@ -1,0 +1,163 @@
+=== MAIN PROPERTY ===
+unit_address: 703 - 700 Sheppard Avenue W
+building_name: Westmount Boutique Residences
+building_url: https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w
+locations:
+  - {'name': 'Bathurst Manor', 'url': 'https://condos.ca/toronto/bathurst-manor/condos-for-sale'}
+  - {'name': 'North York', 'url': 'https://condos.ca/toronto/north-york/condos-for-sale'}
+  - {'name': 'Toronto', 'url': 'https://condos.ca/toronto/condos-for-sale'}
+full_address: Westmount Boutique Residences Bathurst Manor North York Toronto
+days_on_market: 12 days
+status: Archived/Sold
+
+=== RELATED LISTINGS ===
+
+Listing 1:
+  address: 717 - 250 Lawrence Avenue W
+  price: $638,900
+  days_on_market: 12 days
+  bedrooms: 1+1BD
+  bathrooms: 1BA
+  parking: 1Parking
+  size: 539 sqft
+  maintenance_fee: Maint. Fee $355
+  mls_number: MLS#:C12457093
+  brokerage: CENTURY 21 ATRIA REALTY INC.
+  url: https://condos.ca/toronto/250-lawrence-avenue-west-250-lawrence-ave-w/unit-717-C12457093
+  image_url: https://cdn.repliers.io/IMG-C12457093_1.jpg?width=640&v=1
+  image_count: 1/13
+
+Listing 2:
+  address: 910 - 250 Lawrence Avenue W
+  price: $809,900
+  days_on_market: 14 days
+  bedrooms: 1BD
+  bathrooms: 1BA
+  parking: 1Parking
+  size: 585 sqft
+  maintenance_fee: Maint. Fee $385
+  mls_number: MLS#:C12452098
+  brokerage: CENTURY 21 ATRIA REALTY INC.
+  url: https://condos.ca/toronto/250-lawrence-avenue-west-250-lawrence-ave-w/unit-910-C12452098
+  image_url: https://cdn.repliers.io/IMG-C12452098_1.jpg?width=640&v=3
+  image_count: 1/1
+
+Listing 3:
+  address: 303 - 778 Sheppard Avenue W
+  price: $548,888
+  days_on_market: 2 days
+  bedrooms: 2BD
+  bathrooms: 2BA
+  parking: 1 Parking
+  size: 890 sqft
+  maintenance_fee: Maint. Fee $642
+  mls_number: MLS#: C12472214
+  brokerage: SUTTON GROUP-ADMIRAL REALTY INC.
+  url: https://condos.ca/toronto/778-sheppard-avenue-west-condos-778-sheppard-ave-w/unit-303-C12472214
+  image_url: https://cdn.repliers.io/IMG-C12472214_1.jpg?width=640&v=undefined
+  image_count: 1/32
+
+Listing 4:
+  address: 902 - 700 Sheppard Avenue W
+  price: $1,559,600
+  days_on_market: 4 days
+  bedrooms: 2BD
+  bathrooms: 3BA
+  parking: 0 Parking
+  size: 1,000-1,199 sqft
+  maintenance_fee: Maint. Fee $1
+  mls_number: MLS#: C12469820
+  brokerage: DANMAR EMPIRE REAL ESTATE CORP.
+  url: https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-902-C12469820
+  image_url: https://cdn.repliers.io/IMG-C12469820_1.jpg?width=640&v=undefined
+  image_count: 1/12
+
+Listing 5:
+  address: 601 - 700 Sheppard Avenue W
+  price: $1,160,600
+  days_on_market: 4 days
+  bedrooms: 2+1BD
+  bathrooms: 2BA
+  parking: 0 Parking
+  size: 800-899 sqft
+  maintenance_fee: Maint. Fee $1
+  mls_number: MLS#: C12469812
+  brokerage: DANMAR EMPIRE REAL ESTATE CORP.
+  url: https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-601-C12469812
+  image_url: https://cdn.repliers.io/IMG-C12469812_1.jpg?width=640&v=undefined
+  image_count: 1/12
+
+Listing 6:
+  address: 511 - 700 Sheppard Avenue W
+  price: $1,050,880
+  days_on_market: 4 days
+  bedrooms: 2BD
+  bathrooms: 2BA
+  parking: 0 Parking
+  size: 700-799 sqft
+  maintenance_fee: Maint. Fee $1
+  mls_number: MLS#: C12469811
+  brokerage: DANMAR EMPIRE REAL ESTATE CORP.
+  url: https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-511-C12469811
+  image_url: https://cdn.repliers.io/IMG-C12469811_1.jpg?width=640&v=undefined
+  image_count: 1/12
+
+Listing 7:
+  address: 810 - 700 Sheppard Avenue W
+  price: $1,040,880
+  days_on_market: 4 days
+  bedrooms: 2BD
+  bathrooms: 1BA
+  parking: 0 Parking
+  size: 700-799 sqft
+  maintenance_fee: Maint. Fee $1
+  mls_number: MLS#: C12469805
+  brokerage: DANMAR EMPIRE REAL ESTATE CORP.
+  url: https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-810-C12469805
+  image_url: https://cdn.repliers.io/IMG-C12469805_1.jpg?width=640&v=undefined
+  image_count: 1/12
+
+Listing 8:
+  address: 208 - 700 Sheppard Avenue W
+  price: $1,141,000
+  days_on_market: 5 days
+  bedrooms: 2BD
+  bathrooms: 2BA
+  parking: 0 Parking
+  size: 800-899 sqft
+  maintenance_fee: Maint. Fee $1
+  mls_number: MLS#: C12469692
+  brokerage: DANMAR EMPIRE REAL ESTATE CORP.
+  url: https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-208-C12469692
+  image_url: /static/images/condos-photos-coming-soon.webp
+  image_count: 1/12
+
+Listing 9:
+  address: 502 - 700 Sheppard Avenue W
+  price: $944,880
+  days_on_market: 5 days
+  bedrooms: 1+1BD
+  bathrooms: 1BA
+  parking: 0 Parking
+  size: 600-699 sqft
+  maintenance_fee: Maint. Fee $1
+  mls_number: MLS#: C12469688
+  brokerage: DANMAR EMPIRE REAL ESTATE CORP.
+  url: https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-502-C12469688
+  image_url: /static/images/condos-photos-coming-soon.webp
+  image_count: 1/12
+
+Listing 10:
+  address: 1 - 861 Sheppard Avenue W
+  price: $998,800
+  days_on_market: 6 days
+  bedrooms: 3+1BD
+  bathrooms: 3BA
+  parking: 1 Parking
+  size: 1,600-1,799 sqft
+  maintenance_fee: Maint. Fee $509
+  mls_number: MLS#: C12466966
+  brokerage: SNOBAR REALTY GROUP INC.
+  url: https://condos.ca/toronto/greenwich-village-towns-847-871-sheppard-ave-w/unit-1-C12466966
+  image_url: /static/images/condos-photos-coming-soon.webp
+  image_count: 1/22

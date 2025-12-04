@@ -1,0 +1,33 @@
+{
+  "url": "https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-703-C12469683",
+  "scraped_at": "2025-10-23T02:19:33.761806",
+  "property_details": {
+    "unit_address": "703 - 700 Sheppard Avenue W",
+    "bedrooms": "3+1BD",
+    "bathrooms": "3BA",
+    "parking": "1 Parking",
+    "size": "539 sqft"
+  },
+  "price_info": {
+    "asking_price": "Sold for$742,880Listed for$742,880Mortgage Calculator",
+    "price_numeric": 742880,
+    "maintenance_fee": "Maint. Fee $355MLS#:C12457093",
+    "property_tax": "Taxes"
+  },
+  "location": {
+    "nearby_amenities": "See what’s nearbyView grocery, restaurants, bars & more!Get Directions"
+  },
+  "similar_listings": [
+    {
+      "url": "https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-703-C12469683"
+    },
+    {
+      "url": "https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-703-C12469683"
+    },
+    {
+      "address": "717 - 250 Lawrence Avenue W",
+      "price": "$638,900",
+      "url": "https://condos.ca/toronto/250-lawrence-avenue-west-250-lawrence-ave-w/unit-717-C12457093"
+    }
+  ]
+}

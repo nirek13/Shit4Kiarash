@@ -1,0 +1,27 @@
+{
+  "url": "https://condos.ca/toronto/westmount-boutique-residences-700-sheppard-ave-w-716-sheppard-ave-w/unit-703-C12469683",
+  "scraped_at": "2025-10-22 22:35:30",
+  "address": "703 - 700 Sheppard Avenue W",
+  "price": "Sold for$742,880Listed for$742,880Mortgage Calculator",
+  "status": "Sold",
+  "days_on_market": "12 days",
+  "bedrooms": "1+1BD",
+  "bathrooms": "1BA",
+  "parking": "1Parking",
+  "size": "500-599 sqft",
+  "floor": "",
+  "building_name": "Westmount Boutique Residences",
+  "neighborhood": "Bathurst Manor",
+  "city": "Toronto",
+  "maintenance_fee": "Maint. Fee $355MLS#:C12457093",
+  "property_tax": "",
+  "mls_number": "Broker:DANMAR EMPIRE REAL ESTATE CORP.MLS\u00ae#:C12469683",
+  "brokerage": "CENTURY 21 ATRIA REALTY INC.",
+  "images": [
+    "https://cdn.repliers.io/IMG-C12469683_1.jpg?width=1920&v=2"
+  ],
+  "description": "1 bed 1 bath 0 parking 500 - 599 sqft Condo Apt",
+  "price_numeric": 742880,
+  "maintenance_fee_numeric": 355,
+  "size_numeric": 500
+}
