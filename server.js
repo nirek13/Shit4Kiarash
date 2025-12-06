@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Utility function to run Python scripts
 const runPythonScript = (scriptName, args = [], input = null) => {
   return new Promise((resolve, reject) => {
-    const python = spawn('./venv/bin/python', [scriptName, ...args]);
+    const python = spawn('python3', [scriptName, ...args]);
     
     let stdout = '';
     let stderr = '';
