@@ -1,6 +1,6 @@
-# Python Scripts REST API
+# Real Estate Scraper REST API
 
-A Node.js REST API server that provides HTTP endpoints for Python analysis and scraping scripts, including payout calculations and real estate data scraping.
+A Node.js REST API server that provides HTTP endpoints for Python real estate scraping scripts, specifically for condos.ca property listings.
 
 ## 🚀 Quick Start
 
@@ -36,79 +36,13 @@ Visit `http://localhost:3000` for interactive API documentation.
 
 This API provides endpoints for the following Python scripts:
 
-### 1. Payout Calculator (`payout.py`)
-Calculates creator payouts based on view counts using logarithmic interpolation between benchmark data points.
-
-### 2. Advanced Real Estate Scraper (`advanced_scraper.py`)
+### 1. Advanced Real Estate Scraper (`advanced_scraper.py`)
 Simplified scraper for condos.ca listings with quick data extraction.
 
-### 3. Comprehensive Real Estate Scraper (`real_estate_scraper.py`)
+### 2. Comprehensive Real Estate Scraper (`real_estate_scraper.py`)
 Full-featured scraper for condos.ca with comprehensive data extraction including property details, pricing, building info, location data, and more.
 
 ## 🔗 API Endpoints
-
-### Payout Calculator Endpoints
-
-#### Get Benchmark Data
-```http
-GET /api/payout/benchmarks
-```
-Returns the benchmark data points used for payout calculations.
-
-**Response:**
-```json
-{
-  "success": true,
-  "data": [
-    {"views": 10000, "payout": 45},
-    {"views": 25000, "payout": 80},
-    // ... more benchmarks
-  ]
-}
-```
-
-#### Calculate Payout (GET)
-```http
-GET /api/payout/calculate/:views
-```
-Calculate payout for a specific number of views.
-
-**Example:**
-```bash
-curl http://localhost:3000/api/payout/calculate/100000
-```
-
-**Response:**
-```json
-{
-  "success": true,
-  "data": {
-    "views": 100000,
-    "payout": 260
-  }
-}
-```
-
-#### Calculate Payout (POST)
-```http
-POST /api/payout/calculate
-Content-Type: application/json
-
-{
-  "views": 100000
-}
-```
-
-#### Get Chart Data
-```http
-GET /api/payout/chart-data?start=1000&end=1000000&step=5000
-```
-Returns data points for plotting payout charts.
-
-**Parameters:**
-- `start` (optional): Starting view count (default: 1000)
-- `end` (optional): Ending view count (default: 5000000)
-- `step` (optional): Step size (default: 10000)
 
 ### Real Estate Scraper Endpoints
 
@@ -194,11 +128,6 @@ GET /health
 
 ### Using cURL
 
-**Test payout calculation:**
-```bash
-curl http://localhost:3000/api/payout/calculate/150000
-```
-
 **Test real estate scraping:**
 ```bash
 curl -X POST http://localhost:3000/api/scraper/advanced \
@@ -209,17 +138,6 @@ curl -X POST http://localhost:3000/api/scraper/advanced \
 ### Using JavaScript/Fetch
 
 ```javascript
-// Calculate payout
-const response = await fetch('http://localhost:3000/api/payout/calculate', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-  },
-  body: JSON.stringify({ views: 150000 })
-});
-const data = await response.json();
-console.log(data);
-
 // Scrape real estate listing
 const scrapeResponse = await fetch('http://localhost:3000/api/scraper/advanced', {
   method: 'POST',
@@ -239,11 +157,6 @@ console.log(scrapeData);
 ```python
 import requests
 
-# Calculate payout
-response = requests.post('http://localhost:3000/api/payout/calculate', 
-                        json={'views': 150000})
-print(response.json())
-
 # Scrape real estate listing
 response = requests.post('http://localhost:3000/api/scraper/advanced',
                         json={'url': 'https://condos.ca/...'})
@@ -256,9 +169,9 @@ print(response.json())
 ├── server.js              # Main Express server
 ├── package.json           # Node.js dependencies
 ├── requirements.txt       # Python dependencies
-├── payout.py             # Payout calculation script
 ├── advanced_scraper.py   # Simple real estate scraper
 ├── real_estate_scraper.py # Comprehensive real estate scraper
+├── venv/                 # Python virtual environment
 └── README.md             # This file
 ```
 
@@ -274,7 +187,6 @@ The API requires the following Python packages:
 - `requests>=2.31.0`
 - `beautifulsoup4>=4.12.0`
 - `lxml>=4.9.0`
-- `matplotlib` (for payout visualization)
 
 ### Rate Limiting
 
@@ -354,11 +266,11 @@ If you encounter any issues:
 ## 🎯 Use Cases
 
 This API is perfect for:
-- **Content Creator Analytics**: Calculate potential payouts based on view counts
 - **Real Estate Research**: Gather property data for market analysis
 - **Data Pipeline Integration**: Include scraping capabilities in larger applications
 - **Rapid Prototyping**: Quickly test ideas without setting up Python environments
 - **Educational Projects**: Learn about web scraping and API development
+- **Property Market Analysis**: Analyze trends and pricing in the GTA condo market
 
 ---
 

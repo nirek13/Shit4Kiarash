@@ -1,7 +1,7 @@
 {
-  "name": "python-scripts-api",
+  "name": "real-estate-scraper-api",
   "version": "1.0.0",
-  "description": "REST API for Python scraping and analysis scripts",
+  "description": "REST API for real estate scraping from condos.ca",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "keywords": ["api", "scraping", "real-estate", "analytics"],
+  "keywords": ["api", "scraping", "real-estate", "condos", "property"],
   "author": "API Generator",
   "license": "MIT"
 }
