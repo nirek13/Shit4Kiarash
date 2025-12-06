@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Utility function to run Python scripts
+// Utility function to run Python script
 const runPythonScript = (scriptName, args = [], input = null) => {
   return new Promise((resolve, reject) => {
     const python = spawn('python3', [scriptName, ...args]);
