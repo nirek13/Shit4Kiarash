@@ -8,12 +8,12 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
+// Middlewar
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// Utility function to run Python script
+// Utility function to run Python scripts
 const runPythonScript = (scriptName, args = [], input = null) => {
   return new Promise((resolve, reject) => {
     const python = spawn('python3', [scriptName, ...args]);
@@ -68,6 +68,28 @@ app.get('/', (req, res) => {
 // Health check endpoint
 app.get('/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
+});
+app.get('/test-python', (req, res) => {
+  const { spawn } = require('child_process');
+  const python = spawn('python3', ['--version']);
+
+  let output = '';
+  let error = '';
+
+  python.stdout.on('data', (data) => { output += data.toString(); });
+  python.stderr.on('data', (data) => { error += data.toString(); });
+
+  python.on('close', (code) => {
+    if (code === 0) {
+      res.send({ success: true, python_version: output.trim() });
+    } else {
+      res.send({ success: false, error: error || `Exited with code ${code}` });
+    }
+  });
+
+  python.on('error', (err) => {
+    res.send({ success: false, error: err.message });
+  });
 });
 
 // ============ SCRAPER ROUTES ============
